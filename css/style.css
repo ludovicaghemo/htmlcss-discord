@@ -1,0 +1,183 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+   
+}
+
+.flex-container {
+    display: flex;
+}
+
+.aligned-items {
+    align-items: center;
+}
+
+/* HEADER */
+/* HEADER-TOP */
+
+.header-top {
+    height: 5rem;
+    background-color: #255ee9;
+    display: flex;
+    color: white;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.header-logo,
+.header-login {
+/* width: 20%; */
+/* border: 1px dashed black; */
+}
+
+
+.header-links{
+    flex-grow: 1;
+    /* border: 1px dashed black; */
+}
+
+.header-links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header-login {
+    text-align: right;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 40%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+/* HEADER */
+/* HERO */
+
+.hero {
+    /* debug? */
+    background-color: #00008b;
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 450px;
+}
+
+.hero-content {
+    width: 60%;
+    margin: 0 auto;
+    /* debug */
+    background-color: #ee82ee;
+}
+
+/* MAIN */
+
+.main-section {
+    padding: 2rem 0;
+    /* per dare un po' di spazio */
+}
+
+.row {
+    display: flex;
+}
+
+.large-column {
+    width: 60%;
+    background-color: #1e90ff;
+    min-height: 300px;
+}
+
+.small-column {
+    width: 40%;
+    background-color: #ffc0cb;
+    min-height: 300px;
+}
+
+.grey-section {
+    background-color: #d3d3d3;
+}
+
+.square {
+    background-color: #228b22;
+    min-height: 300px;
+}
+
+
+/* FOOTER */
+/* Footer-top */
+
+footer {
+    background-color: #23272a;
+}
+
+.footer-top {
+    padding: 2rem 0;
+}
+
+.main-column {
+    width: 30%;
+    background-color: #f08080;
+    min-height: 400px;
+    border: 1px dashed black;
+}
+
+.many-columns {
+    width: 70%;
+    background-color: #20b2aa;
+    min-height: 400px;
+    display: flex;
+}
+
+.footer-column {
+    width: calc(100% / 4);
+    border: 1px dashed white;
+    min-height: 400px;
+}
+
+.footer-bottom {
+    /* border: 1px solid white; */
+    padding: 2rem 0;
+}
+
+.footer-bottom .container {
+    background-color: #7fffd4;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
