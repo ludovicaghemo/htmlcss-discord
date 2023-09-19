@@ -62,7 +62,7 @@ img {
 
 .circle {
     border: 1px solid white;
-    border-radius: 40%;
+    border-radius: 20px;
     background-color: white;
     color: black;
     padding: 10px;
@@ -76,19 +76,53 @@ a {
 /* HERO */
 
 .hero {
-    /* debug? */
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     color: white;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
-    min-height: 450px;
+    padding: 7rem 0;
 }
 
 .hero-content {
     width: 60%;
     margin: 0 auto;
-    /* debug */
-    background-color: #ee82ee;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    padding: 2rem;
+    font-size: 2em;
+}
+
+.hero-text {
+    margin: 1rem;
+}
+
+.hero-link {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+
+.mac {
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.browser {
+    border: 1px solid #23272a;
+    border-radius: 30px;
+    background-color: #23272a;
+    color: white;
+    padding: 15px;
 }
 
 /* MAIN */
